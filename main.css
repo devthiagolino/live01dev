@@ -1,0 +1,175 @@
+/* ESTAMOS ADICIONANDO A FONTE PARA UTILIZAR NO NOSSO SITE */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  border-collapse: collapse;
+  font-family: "Open Sans", sans-serif;
+  color: #411f1f;
+  background-color: #f9f9f9;
+}
+
+a {
+  text-decoration: none;
+  color: #411f1f;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+section {
+  width: 100%;
+}
+
+div {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.container {
+  max-width: 980px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.titulo-sessao {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.titulo-sessao h1 {
+  border-bottom: 1px dashed #ccc;
+  display: inline-block;
+  padding: 10px 40px;
+}
+
+header {
+  background-color: #f7d10e;
+  min-height: 130px;
+  width: 100%;
+}
+
+header .logo {
+  padding: 15px;
+}
+
+header .logo img {
+  max-width: 150px;
+  width: 100%;
+}
+
+header .main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 130px;
+}
+
+header .main-header nav ul {
+  list-style: none;
+}
+
+header .main-header nav ul li {
+  display: inline;
+  padding: 0 10px;
+}
+
+header .main-header nav ul li.ativo a {
+  font-weight: bold;
+}
+
+main {
+  padding-bottom: 50px;
+}
+
+#banners {
+  max-height: 520px;
+}
+
+#banners img {
+  width: 100%;
+  max-height: 400px;
+  display: block;
+}
+
+#banners .banner {
+  position: relative;
+  width: 100%;
+  min-height: 400px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding-bottom: 80px;
+}
+
+#banners .banner h4,
+#banners .banner h1 {
+  color: #fff;
+}
+
+#banners .banner h1 {
+  color: #f7d10e;
+  font-size: 55px;
+  background-color: #411f1f;
+}
+
+#destaques .sabores-destaques {
+  display: grid;
+  gap: 1rem;
+}
+
+#destaques .sabores-destaques .sabor-destaque {
+  text-align: center;
+}
+
+#destaques .sabores-destaques .sabor-destaque img {
+  width: 100%;
+  opacity: 0.8;
+}
+
+#destaques .sabores-destaques .sabor-destaque a {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#destaques .sabores-destaques .sabor-destaque a span {
+  font-weight: bold;
+  font-size: 17px;
+  margin-top: 20px;
+}
+
+#destaques .sabores-destaques .sabor-destaque:hover span {
+  color: #f7d10e;
+}
+
+#destaques .sabores-destaques .sabor-destaque:hover img {
+  opacity: 1.0;
+}
+
+footer {
+  background-color: #411f1f;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  color: #fff;
+}
